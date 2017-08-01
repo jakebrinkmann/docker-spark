@@ -1,4 +1,3 @@
-# special-excessive-panther
 
 [Apache Spark™](https://spark.apache.org/) framework introduced for speeding up the Hadoop computational process, uses a read-only, partitioned collection of records: Resilient Distributed Datasets (RDD). Storing state in a distributed memory, it allows the re-use of intermediate results across jobs in the cluster (e.g. map, filter, reducer, join)
 
@@ -24,7 +23,6 @@ First, install Java, Hadoop, and Spark:
 
 Build the base spark image:
 ```
-cd special-excessive-panther/
 docker build -t special-spark-base ./spark-base
 ```
 
